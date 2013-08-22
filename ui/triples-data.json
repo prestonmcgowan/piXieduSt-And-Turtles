@@ -1,0 +1,1 @@
+{"id":"a","name":"Alice","children":[{"id":"b","name":"Bob","size":10},{"id":"c","name":"Charlie","size":10},{"id":"d","name":"David","size":10,"children":[{"id":"c","name":"Charlie","size":10}]}],"size":10}
