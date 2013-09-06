@@ -9,15 +9,16 @@ xdmp:set-response-content-type("text/html; charset=UTF-8"),
   <body>
     <p>Some text here</p>
     <textarea id="jsonData">{
-      (: One Node with One Child :)
-      '{"id":"xxx","name":"crap","index":5, "children":[{"id":"a","name":"Alice","index":0, "size":10,"children":[{"id":"s1","name":"Shared","index":3, "size":10},{"id":"s2","name":"Shared","index":4, "size":10}]}]}'
+      (: One Node with One Child - works:)
+      (: '{"id":"a","name":"Alice", "index":0, "children":[{"id":"b","name":"Bob","index":1, "size":10}],"size":10}' :)
       
-    (: 3 nodes with 3 interconnects
-      '{"children":[{"id":"a","name":"Alice","index":0,"children":[{"id":"s1","name":"Shared","index":3},{"id":"s2","name":"Shared","index":4}]},{"id":"b","name":"Bob","index":1,"children":[{"id":"s2","name":"Shared","index":4},{"id":"s3","name":"Shared","index":5}]},{"id":"c","name":"Cally","index":2,"children":[{"id":"s1","name":"Shared","index":3},{"id":"s3","name":"Shared","index":5}]}]}'
+    (: Three Node Graph - works 
+    '{"id":"a","name":"Alice", "index":0, "children":[{"id":"b","name":"Bob","index":1, "size":10},{"id":"c","name":"Charlie","index":2, "size":10},{"id":"d","name":"David","index":3, "size":10,"children":[{"id":"c","name":"Charlie","index":2, "size":10}]}],"size":10}'
     :)
-    (: Three Node Graph 
-      '{"id":"a","name":"Alice", "index":0, "children":[{"id":"b","name":"Bob","index":1, "size":10},{"id":"c","name":"Charlie","index":2, "size":10},{"id":"d","name":"David","index":3, "size":10,"children":[{"id":"c","name":"Charlie","index":2, "size":10}]}],"size":10}'
-    :)
+    
+    (: Bunches of nodes - works :)
+    '{"id":"a","name":"Alice", "index":0, "children":[{"id":"a1","name":"Bob","index":1, "size":10, "children":[{"id":"ab","name":"Bob","index":4, "size":10},{"id":"b","name":"Bob","index":5, "size":10}]},{"id":"a2","name":"Bob","index":2, "size":10},{"id":"ac","name":"Bob","index":3, "size":10, "children":[{"id":"c","name":"Bob","index":6, "size":10}]}],"size":10}'
+    
     }</textarea>
     
     
