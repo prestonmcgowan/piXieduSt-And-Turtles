@@ -42,10 +42,16 @@ declare function local:perpetratorSubOrgs($parentOrgName as xs:string) {
   return fn:distinct-values($ret)
 };
 
-/Users/sstroud/Documents/sytycd/services.xqy
-
 declare function local:allDataSources() {
 	local:sparqly("SELECT ?o WHERE { ?s </gtd/event#dbsource> ?o }")
+};
+
+declare function local:allEvents() {
+  local:sparqly("SELECT ?s WHERE { ?s ?p ?o }")
+};
+
+declare function local:allEventsWithSummary() {
+  local:sparqly-map(fn:concat("SELECT ?s ?o WHERE { ?s </gtd\event#summary> ?o }"))
 };
 
 declare function local:eventsForCountry($country as xs:string) {
