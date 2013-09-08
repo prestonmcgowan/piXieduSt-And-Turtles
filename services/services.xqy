@@ -196,7 +196,8 @@ else if($method eq "allEvents") then
   xdmp:to-json( local:allEvents() )
 else if($method eq "allEventsWithSummary") then
   xdmp:to-json( local:allEventsWithSummary() )
-else ()
+else
+  xdmp:to-json( fn:concat("Supported method values are properties, events, allEvents, & allEventsWithSummary") )
 
 
 
