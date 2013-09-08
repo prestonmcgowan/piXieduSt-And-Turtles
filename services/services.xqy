@@ -189,15 +189,14 @@ xdmp:to-json(
 :)
 
 if ($method eq "properties") then
-	xdmp:to-json(
-  		local:transform-properties-for-ui($event, local:eventDetails($event))
-	)
-else 
-	xdmp:to-json(
-  		local:transform-events-for-ui($relType, $name, local:eventsForProperty($relType, $name))
-	)
-
-
+	xdmp:to-json( local:transform-properties-for-ui($event, local:eventDetails($event)) )
+else if($method eq "events") then
+	xdmp:to-json( local:transform-events-for-ui($relType, $name, local:eventsForProperty($relType, $name)) )
+else if($method eq "allEvents") then
+  xdmp:to-json( local:allEvents() )
+else if($method eq "allEventsWithSummary") then
+  xdmp:to-json( local:allEventsWithSummary() )
+else ()
 
 
 
