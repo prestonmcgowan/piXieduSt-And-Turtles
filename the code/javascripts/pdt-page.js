@@ -70,9 +70,7 @@ function makeCircles(){
 	}
 		
 	link.call(updateLink);
-  
-  
-  
+
   
   force.on("tick", function() {
 
@@ -81,7 +79,7 @@ function makeCircles(){
 		link.call(updateLink);
 
 	});
-  
+
 }
 
 function findNodes(data) {
@@ -105,7 +103,9 @@ function findNodes(data) {
   }
 }
 
-var json = JSON.parse(document.getElementById("jsonData").value);
+function loadIt() {
+  var json = JSON.parse(document.getElementById("jsonData").value);
 
-findNodes(json);
-makeCircles();
+  findNodes(json);
+  makeCircles();
+}
