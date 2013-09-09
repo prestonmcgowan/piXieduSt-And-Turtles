@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hosts xsi:schemaLocation="http://marklogic.com/xdmp/hosts hosts.xsd" xml:lang="zxx" timestamp="13764869022714090" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://marklogic.com/xdmp/hosts">
+  <host>
+    <host-id>12719277450881966152</host-id>
+    <host-name>ml7-demo.tampabay.rr.com</host-name>
+    <group>8668931742613624160</group>
+    <bind-port>7999</bind-port>
+    <connect-port>7999</connect-port>
+    <foreign-bind-port>7998</foreign-bind-port>
+    <foreign-connect-port>7998</foreign-connect-port>
+    <ssl-certificate>-----BEGIN CERTIFICATE-----
+MIICzTCCAbWgAwIBAgIIZ87xUBFSYRIwDQYJKoZIhvcNAQEFBQAwHzEdMBsGA1UE
+AxMUMTI3MTkyNzc0NTA4ODE5NjYxNTIwHhcNMTMwODE0MTMyODE5WhcNMjMwODEy
+MTMyODE5WjAfMR0wGwYDVQQDExQxMjcxOTI3NzQ1MDg4MTk2NjE1MjCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBALu8lVeaArw2UCEvMjWEyXOsLuQ81x4V
+wfg1FHEnHpxkqzeBQazBVLJjtWpe+M5xE5HPoBVzGJUxJ75guUEpLZsz1TJauIL1
+hJ9HfZQwBWPGv6NovD6LFO2angycfCdarqg1OE5UQb8rWoPklNpNOXWNb7WJQlVo
+9xuxhMEafpxox9LQP8HxDcrtLx0OSY2Nnb8CNPioanb77B+kicrCK95NsizwXV1F
+gb8/Q01Er9Nb8/YwX7eKDvhINFnsC33lrrVt64py1pGbbjzevhnmF2kLp8360+WI
+WougF/AF6XBEEjHqshpNZoC6VadU3+lyrgZ88ZFKkrDADM3y4WFE0V8CAwEAAaMN
+MAswCQYDVR0TBAIwADANBgkqhkiG9w0BAQUFAAOCAQEANVRc3e0nlEtZqEjUncc7
+0SzWjhUMsB1dsRvVEqkBjmh2GV5kINWGEkGdybwzygEC2vRYQOe+4jszyic6JGRl
+jyTSVTgm0s4UyELUK7Khkk3RIG6YrAIodzYR2pntIzFnAzeu4Z85LIV9U2AGYxOG
+2br4pabTaG+k65hijVE78hiY06w5W9HNfdaWHZiTWeLOFzhW+Q9oeM5dECMAkexb
+LvmNKg189cDFK6H1440xdUbHxsp3rR07MPIzip8fPjrxc65tsKQDfggyLXSPQJMi
+rJ5iOEzydVPhm9fN2guhlv2Fa4Z5Rh2d5dbif+vQVdomQVCyli29bLAoahPlwTvD
+gA==
+-----END CERTIFICATE-----
+</ssl-certificate>
+    <zone/>
+  </host>
+</hosts>

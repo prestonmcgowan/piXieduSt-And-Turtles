@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clusters xsi:schemaLocation="http://marklogic.com/xdmp/clusters clusters.xsd" xml:lang="zxx" timestamp="13764869023222720" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://marklogic.com/xdmp/clusters">
+  <security-version>70001</security-version>
+  <cluster-id>14205941615107914012</cluster-id>
+  <cluster-name>ml7-demo.tampabay.rr.com-cluster</cluster-name>
+  <ssl-fips-enabled>true</ssl-fips-enabled>
+  <xdqp-ssl-certificate>-----BEGIN CERTIFICATE-----
+MIICzjCCAbagAwIBAgIJAKtl0l7v239aMA0GCSqGSIb3DQEBBQUAMB8xHTAbBgNV
+BAMTFDE0MjA1OTQxNjE1MTA3OTE0MDEyMB4XDTEzMDgxNDEzMjgxOVoXDTIzMDgx
+MjEzMjgxOVowHzEdMBsGA1UEAxMUMTQyMDU5NDE2MTUxMDc5MTQwMTIwggEiMA0G
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDbvmCVkQL8/pW/h6IHKRIZjuGvrS0h
+ITQj79MLr1eBVDWe2+eM67t1eURXkCsq3YDlIvJh2l+8/7EEE/wYFhqaLyDRM3Ls
+0wr2WE7UTg2C33fyvLRSer/cALABYBaGV8pBJPBNCMWP631Dpj1NSBaq/WFwb3yp
+SDKA1fxYF0o0gWVhytb1l8juqFSXZhx4GUhda5fyOY82HOdC9VgW7qWyJEXxHvr0
+ePQHJq3hTOAioshiRc8LuJLo9AsBjFOWeXm0dt69NKN2M/she/5DaCIrYOv3tVpd
+QbTEsgjonrYDiXAID76FyD249Glsfc2oJuL/MTYeatjVSBz9gP02XNjpAgMBAAGj
+DTALMAkGA1UdEwQCMAAwDQYJKoZIhvcNAQEFBQADggEBANoLRF+hLm+5mpIbYYpA
+uoUIFKA7IPBU7L+qHROBRSeN5cJYAOTupU6Gjsc+5/PoTRjq7mb86Wv+uoaZxgsc
+G7XWF7Qsawn8IhQr7Z338CJOV+j1UDgD0OCGcuQJvh2usUA3Q/UAxsn3xb7fKaht
+bqChKjnFNBu1mZ5sFcNgN0feX7cWvB+vqbTEUMLZMlxiaZbnSCXjo6m87SkH1/Rd
+BQQ+QnE2KkdkW4xLhPu3W5ya2MWo2FgV4Q5EUj2Wl/pcbqdp9d/kaypO9cEbgSmI
+bKadDx4SM9mXL4AFUEGHqReORs0zOS/fRlp9ElcYkFwe5CKiIIkkKdg2+YonaBN+
+SsE=
+-----END CERTIFICATE-----
+</xdqp-ssl-certificate>
+  <xdqp-ssl-private-key>-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEA275glZEC/P6Vv4eiBykSGY7hr60tISE0I+/TC69XgVQ1ntvn
+jOu7dXlEV5ArKt2A5SLyYdpfvP+xBBP8GBYami8g0TNy7NMK9lhO1E4Ngt938ry0
+Unq/3ACwAWAWhlfKQSTwTQjFj+t9Q6Y9TUgWqv1hcG98qUgygNX8WBdKNIFlYcrW
+9ZfI7qhUl2YceBlIXWuX8jmPNhznQvVYFu6lsiRF8R769Hj0Byat4UzgIqLIYkXP
+C7iS6PQLAYxTlnl5tHbevTSjdjP7IXv+Q2giK2Dr97VaXUG0xLII6J62A4lwCA++
+hcg9uPRpbH3NqCbi/zE2HmrY1Ugc/YD9NlzY6QIDAQABAoIBAQCEyadt2mJW5bUy
+N1EXSJ9SaIBC+8BAu+LZMIx1DDExyuRYKgTjqHPwSiadT1Z2ocHJNXQI48Bk4pJi
+p3z4RSswLviC0rdJG0MNmFGSg9QwWMAQJC5HhTu5Q4UYX6tc5WIoOZ0ov/s6vBBH
+OAblU4G3NESUgBpx5Vn3dtf1l6VU0hm73RwxFp0XKvxnQgOPQwDQ2TTBVy2IZFy9
+fHnt9muxVKtRtd8eDHBXZd/1UZWDJSppkEvMqXMXhp+fr7rTPD4E0iSpriqYYZEi
+mVOgjMoIx8UriWH/674yUJy3KbjDGmcDs0OMq67NtxAn8NQahFBbZkVu8S51LJTZ
+1zdPYLWBAoGBAPdsmky75VHwb5xlIlVJvzzKkx6Mv3s9mc4PMX64Z+Rd/W7HsYIn
+JFi/e/X+HqjTKsnsUcmbEZ2ANAsTdRT/z773wk+YUocIbkkeAOEQdYJbDYchfhiA
+BpBbaAVmZ9JMlyXYenFGc9AkQypA3KxfOIFTusoIasJ1C7NWrfFDLJ9xAoGBAONc
+KiWDNXJmAMteEdSoNDQa1qDFwstMCUE0EUSCgpTh/gwlZIvGXxhqBcAvp4r79dqe
+Zr0AwzIWn+4ZkqlMjrbOd79pvzwyU6oPxdNIPO0M4HR9sS5E9OBHWNlHntcQvtWX
+WbuhNwue1DtKuoO0tjpr2EIgLxKhgRttGVs4+AT5AoGAPM8xQQiw/Kl2FN76SDHe
+0WcML2byLKzgHze2t2lFB2heQBrOMqnCEhnFspipGl8D1irBkyYMd0QqBkra7LVO
+bqXf2MYcCln1GP1JxAbSip4sPfjqT8UvV81PTHx1qcbvIvsIZMym7BHte/YDBk5E
+yew1LTBSZMZ1gLcd+vzCe9ECgYB7F/kRmjojl6oycNnCgtbQpv8wyCEwpBgWnzQC
+HY7JQJmkxdHsAxiVRUGbzbEuBEAVftEs3u7PfYRVCq9mzbYurxYSIhSRaMX3Otbm
+DyQ9S01yhGKbJGZXzwkBik8rLTvEtE620Q/WUMWi3FCi4gIPGzhYhMg3lA0sZiLm
+Sq+tMQKBgEo1H5zeyOg6r72RCSCgjyUwxi+j3273gI6T6jJKEW7B+PZVVaSHEDKJ
+4iTWd9+YV7scldOGMKgnuEVwrT+Ahe0XkK7q0JqPB8KpJQmmqh/lDVAd+My1G+sV
+Tsrr0r3fH3bkKM/+FphwBU950se0BiHa650JsTJg6hlIxgAmVKDC
+-----END RSA PRIVATE KEY-----
+</xdqp-ssl-private-key>
+  <bootstrap-hosts>
+    <bootstrap-host>12719277450881966152</bootstrap-host>
+  </bootstrap-hosts>
+  <foreign-clusters/>
+</clusters>

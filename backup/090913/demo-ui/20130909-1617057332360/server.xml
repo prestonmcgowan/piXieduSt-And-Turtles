@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server xsi:schemaLocation="http://marklogic.com/xdmp/group group.xsd" xml:lang="zxx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://marklogic.com/xdmp/group">
+  <host-id>12719277450881966152</host-id>
+  <licensee>MarkLogic - Preston McGowan</licensee>
+  <license-key>3085-4D0B-655B-9AB9-89B4-9E54-D4A6-3530-B58D-4C66-6B3B-5AD4-DE3C-3A60</license-key>
+  <accepted-version>7.0-20130628</accepted-version>
+  <accepted-agreement>development</accepted-agreement>
+  <accepted-licensee>MarkLogic - Preston McGowan</accepted-licensee>
+  <ssl-private-key>-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAu7yVV5oCvDZQIS8yNYTJc6wu5DzXHhXB+DUUcScenGSrN4FB
+rMFUsmO1al74znETkc+gFXMYlTEnvmC5QSktmzPVMlq4gvWEn0d9lDAFY8a/o2i8
+PosU7ZqeDJx8J1quqDU4TlRBvytag+SU2k05dY1vtYlCVWj3G7GEwRp+nGjH0tA/
+wfENyu0vHQ5JjY2dvwI0+KhqdvvsH6SJysIr3k2yLPBdXUWBvz9DTUSv01vz9jBf
+t4oO+Eg0WewLfeWutW3rinLWkZtuPN6+GeYXaQunzfrT5Yhai6AX8AXpcEQSMeqy
+Gk1mgLpVp1Tf6XKuBnzxkUqSsMAMzfLhYUTRXwIDAQABAoIBAQCnx3AIbEGJh1ix
+b4aFwfhwAi+eFqmB35wMgROV1IpM5sMFxeS1ycox615UhDAD/5ant1CwGr6bhuSo
+BbVKgMybagVdDSrdDyLJXpDigNAwTY0zMwUZOB8qAgbB6pAic66n8XgyuKZRfSNV
+wFEvj9iMMCznppW70yUUgN/N3CnPCWVorZ9MIEc4Yqd6Mr7H3CP6pRHmwDXcNqpn
+AxoqdZ8NXcIkXfcazyWG2WUrtyRCbWPPoVlz8JAD3KYjiA7CKPvAahKBjCBHc+h8
+AUlLO3Y32luzyNWE1LUJKL+5Vc3Jp7zey0+8nD/sRFGdhS2TbLHakZv7JTYaZWQQ
+sXLrbXABAoGBAOSzJrkbTwSBiHlHREk0VuOBQJiXWiXkR9xfeDpNllfDLr8OfZmh
+qE6/b8zeEd/FquBz2PZi7I/SbWWdGnYQG3Klz1bZixm15wjRXR6UFWBc8NObOIbC
+QZxGnnyZet8qINXsqTXkGjEpGIDx3IV6G17h/U6VUUcm+OWBZmFcvaVfAoGBANIl
+oxMheQymOwWXJ2tciBZFKiZyaaciNFWN61rNduU8PVRDv6Hobnk2YXLT9CTMFAWv
+IPRuYrfEDwWHlL2I4+sFAgEvhpDl7n5ee3RfHNKNNUZAFDbAd9rEnAZPQS9/lwr5
+UOl08Gkv20FnUOouMCrFjICDNgkYLF8SD3X4PFQBAoGBAMGA36PBenMqkmljJmD2
+Gwp1w00YyprC8xZ/5L8YBLwPFo9rWFRUFo9CpPrnbqIyoqk0+/9EpjnuZseSTOBW
+MpMnvi4S9QH1Ch1I4AxOaWPWX6H7dLF4zYDHs7NjPTZzc8LtciJ59LthtSzs95Qs
+Q9pdRjFmX5XfYLr3aMO6b2/rAoGAB7pOluOCOg7a2MfIMVCDyJ3egO9wJy9A0WyY
+nQw1NRTUBIdBQsjzVw3C46AbuEaw7cyU36g3hR52lvN3asjf6MKUYkrHHgj2jjsX
+Ox5MRwneTakJlUHapnbYbfr4ILEGcubcLNmaBaQ24d7UwOfV6Zy+H/OzRv5Wk2Bs
+pR/tyAECgYAW4Mdin2IgJn4E8GPTac8oGNsAiEnRiGPG/t5qpBGtZzEv9Nr3Th4T
+wK2T0EgTQWkcAFP4MpLn2SAfVNCUDtXH/WhFdRpaIQajMfy3iyEKPuO+/Wk7EeOY
+eM/+tkpgrXwkDur/m4eSkhuM8AKnNzCdMkDU25umrpDHR6xBdNQ6GQ==
+-----END RSA PRIVATE KEY-----
+</ssl-private-key>
+</server>
