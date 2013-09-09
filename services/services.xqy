@@ -81,7 +81,7 @@ declare function local:sparqly($sparql as xs:string) {
 };
 
 declare function local:sparqly-map($sparql as xs:string) {
-	local:result-to-map(sem:sparql(fn:concat($sparql)))
+	local:result-to-map(sem:sparql($sparql))
 };
 
 declare function local:map-values($m as map:map) {
@@ -105,19 +105,22 @@ declare function local:escape-for-ui($string as xs:string) as xs:string {
 };
 
 declare function local:unescape-from-ui($string as xs:string) as xs:string {
-      let $val := fn:replace($string, "&amp;amp;", "&amp;")
-      let $val := fn:replace($val, '', '"')
-      return $val
+      if($string) then
+        let $val := fn:replace($string, "&amp;amp;", "&amp;")
+        let $val := fn:replace($val, '"', '')
+        return $val
+      else ()
 };
 
 declare function local:ui-map-entry($relType, $id, $name, $index, $children) as map:map {
     let $m := map:map()
-	let $put := (
+	 
+  let $put := (
 		if($relType) then map:put($m, "relType", $relType) else (),
 		if($id) then map:put($m, "id", xs:string($id)) else (),
-		if($name) then map:put($m, "name", local:escape-for-ui($name)) else (),
-		if($index) then map:put($m, "index", $index) else (),
-		if($children) then map:put($m, "children", $children) else ()
+		if($name) then (map:put($m, "name", xs:string(xdmp:hash32($name))), map:put($m, "title", local:escape-for-ui($name))) else (),
+		if($index) then map:put($m, "index", $index) else map:put($m, "index", 0),
+		if(fn:count(map:keys($children)) gt 0) then map:put($m, "children", $children) else ()
 	)
 	return $m
 };
@@ -197,7 +200,7 @@ else if($method eq "allEvents") then
 else if($method eq "allEventsWithSummary") then
   xdmp:to-json( local:allEventsWithSummary() )
 else
-  xdmp:to-json( fn:concat("Supported method values are properties, events, allEvents, & allEventsWithSummary") )
+  xdmp:to-json( fn:concat("Supported method values are 'properties', 'events', 'allEvents', &amp; 'allEventsWithSummary'") )
 
 
 
